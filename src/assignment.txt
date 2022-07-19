@@ -1,0 +1,125 @@
+
+ let products=[
+        {
+            name:"Fancy Product",
+            actualPrice:"$40.00 - $80.00",
+            discountedPrice:"",
+            action:"View options"
+        },
+        {
+            name:"Special Item",
+            review:"⭐⭐⭐⭐⭐",
+            
+            actualPrice:"$20.00",
+            discountedPrice:"$18.00",
+            action:"Add to Cart"
+        },
+        {
+            name:"Sale Item",
+      
+            actualPrice:"$50.00",
+            discountedPrice:"$25.00",
+            action:"Add to Cart"
+        },
+        {
+            name:"Popular Item",
+            review:"⭐⭐⭐⭐⭐",
+            actualPrice:"$40.00",
+            discountedPrice:"",
+            action:"Add to Cart"
+        },
+        {
+            name:"Sale Item",
+            actualPrice:"$50.00",
+            discountedPrice:"$25.00",
+            action:"Add to Cart"
+        },
+        {
+            name:"Fancy Product",
+            actualPrice:"$120.00 - $280.00",
+            discountedPrice:"",
+            action:"View options"
+        },
+        {
+            name:"Special Item",
+            review:"⭐⭐⭐⭐⭐",
+            actualPrice:"$20.00",
+            discountedPrice:"$18.00",
+            action:"Add to Cart"
+        },
+        {
+            name:"Popular Item",
+            review:"⭐⭐⭐⭐⭐",
+            actualPrice:"$40.00",
+            discountedPrice:"",
+            action:"Add to Cart"
+        },
+
+    ]
+
+  return (
+    <div className="App">
+      
+      {/* Navigation */}
+      <nav>
+        <div>
+        <Link to="/">Start Bootstrap</Link>
+        <button>toggle Button</button>
+        </div>
+        <div>
+            <Link to="/">Home</Link>
+            <Link to="/">About</Link>
+            <Link to="/">Shop</Link>
+        </div>
+      </nav>
+
+{/* Header */}
+      <header>
+<div>
+    <h1>Shop in style</h1>
+    <p>With this shop hompeage template</p>
+</div>
+      </header>
+
+      
+    {/* section */}
+    <section>
+        <div>
+            <div>
+{/* {products.map(()=><Products product={products}/>)} */}
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <div>
+        <p>Copyright © Your Website 2022</p>
+    </div>
+</footer>
+
+    </div>
+  );
+}
+
+// function Products({product}){
+
+//     return(
+//         <div>
+//             <div>
+//             {/* product image */}
+//             <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg
+// " alt="productimage"></img>
+// </div>
+// {/* product details */}
+// <div>
+//     <h5>{product.name}</h5>
+//     <p>{product.review}</p>
+//     <p><span>{product.actualPrice}</span><span>{product.discountedPrice}</span></p>
+// </div>
+// {/* product action */}
+// <div>
+//     <button>{product.action}</button>
+// </div>
+//         </div>
+//     )
+// }
